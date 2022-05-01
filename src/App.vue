@@ -26,9 +26,9 @@ fetchData()
 <template>
   <div class="grid place-items-center h-screen grid-cols-3 p-3">
     <div class="col-span-3">
-      <div class="">
+      <div class="lg:grid grid-cols-3">
         <figure
-          class="relative gap-6 flex items-center flex-col-reverse neutralColor2 rounded-lg px-6 pt-8 pb-20 dark:bg-slate-800 dark:highlight-white/5">
+          class="lg:col-start-2 relative gap-6 flex items-center flex-col-reverse neutralColor2 rounded-lg px-6 pt-8 pb-20">
           <button @click="fetchData"
             class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 bg-green-400 hover:shadow-green-400 shadow-2xl rounded-full flex flex-col items-center justify-center absolute h-14 w-14 -bottom-6"><svg
               width="24" height="24" xmlns="http://www.w3.org/2000/svg">
