@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  background: hsl(218, 23%, 16%);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'manrope', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.primaryColor {
+  color: hsl(193, 38%, 86%) 
+}
+
+.secondaryColor {
+  color: hsl(150, 100%, 66%)
+}
+
+.bgSecondaryColor {
+  background-color: hsl(150, 100%, 66%);
+}
+
+.neutralColor1 {
+  background-color: hsl(217, 19%, 38%);
+}
+
+.neutralColor2 {
+  background-color: hsl(217, 19%, 24%)
+}
+
+.neutralColor3 {
+  color: hsl(218, 23%, 16%)
+}
+
+.quote {
+  font-size: 28px;
+}
